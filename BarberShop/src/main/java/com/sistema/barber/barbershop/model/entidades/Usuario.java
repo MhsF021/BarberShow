@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 public class Usuario {
+
     private Long id;
     private String nome;
     private String senha;
@@ -13,10 +14,10 @@ public class Usuario {
     private LocalDateTime dth_criacao;
     private LocalDateTime last_login;
 
-    public Usuario(){
+    public Usuario() {
         this.estado = true;
-}
-    
+    }
+
     public Usuario(Long id, String nome, String senha, String usuario, Perfil perfil, LocalDateTime dth_criacao, LocalDateTime last_login) {
         this.id = id;
         this.nome = nome;
@@ -27,7 +28,6 @@ public class Usuario {
         this.last_login = last_login;
         this.estado = true;
     }
-    
 
     public Long getId() {
         return id;
@@ -104,15 +104,17 @@ public class Usuario {
             return false;
         }
         final Usuario other = (Usuario) obj;
-        if(!Objects.equals(this.id, other.id)){
+        if (!Objects.equals(this.id, other.id)) {
             return false;
         }
         return true;
     }
-    public void reset(){
+
+    public void reset() {
         this.estado = true;
     }
-    public void alterar_estado(){
+
+    public void alterar_estado() {
         this.estado = !this.estado;
     }
 }

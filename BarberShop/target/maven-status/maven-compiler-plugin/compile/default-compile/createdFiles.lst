@@ -1,1 +1,10 @@
+com\sistema\barber\barbershop\model\entidades\Perfil.class
+com\sistema\barber\barbershop\model\connection\ConnectionDB.class
+com\sistema\barber\barbershop\model\entidades\Cliente.class
+com\sistema\barber\barbershop\model\entidades\Servico.class
+com\sistema\barber\barbershop\model\connection\ConnectionMySQL.class
+com\sistema\barber\barbershop\NewClass.class
 com\sistema\barber\barbershop\BarberShop.class
+com\sistema\barber\barbershop\model\entidades\Usuario.class
+com\sistema\barber\barbershop\helper\DatabaseHelper.class
+com\sistema\barber\barbershop\model\entidades\Agendamento.class
