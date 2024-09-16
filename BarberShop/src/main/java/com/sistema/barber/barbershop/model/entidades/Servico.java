@@ -5,17 +5,17 @@ import java.time.LocalDateTime;
 
 public class Servico {
 
-    private Long cd_servico;
-    private String nm_servico;
-    private String ds_servico;
-    private BigDecimal preco;
-    private Usuario cd_usuario;
-    private LocalDateTime dt_criacao;
+    public static int cd_servico;
+    public static String nm_servico;
+    public static String ds_servico;
+    public static BigDecimal preco;
+    public static Usuario cd_usuario;
+    public static LocalDateTime dt_criacao;
 
     public Servico() {
     }
 
-    public Servico(Long id, String nome, String descricao, BigDecimal preco, Usuario usuario, LocalDateTime dth_criacao) {
+    public Servico(int id, String nome, String descricao, BigDecimal preco, Usuario usuario, LocalDateTime dth_criacao) {
         this.cd_servico = cd_servico;
         this.nm_servico = nm_servico;
         this.ds_servico = ds_servico;
@@ -24,11 +24,11 @@ public class Servico {
         this.dt_criacao = dt_criacao;
     }
 
-    public Long getCdServico() {
+    public int getCdServico() {
         return cd_servico;
     }
 
-    public void setCdServico(Long cd_servico) {
+    public void setCdServico(int cd_servico) {
         this.cd_servico = cd_servico;
     }
 
