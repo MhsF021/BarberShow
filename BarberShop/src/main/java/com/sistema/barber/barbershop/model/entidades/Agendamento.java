@@ -4,26 +4,26 @@ import java.time.LocalDateTime;
 
 public class Agendamento {
 
-    private Long cd_agendamento;
-    private Cliente cd_cliente;
-    private Usuario cd_usuario;
-    private LocalDateTime dt_agendamento;
+    public static int cd_agendamento;
+    public static Cliente cd_cliente;
+    public static Usuario cd_usuario;
+    public static LocalDateTime dt_agendamento;
 
     public Agendamento() {
     }
 
-    public Agendamento(Long cd_agendamento, Cliente cd_cliente, Usuario cd_usuario, LocalDateTime dt_agendamento) {
+    public Agendamento(int cd_agendamento, Cliente cd_cliente, Usuario cd_usuario, LocalDateTime dt_agendamento) {
         this.cd_agendamento = cd_agendamento;
         this.cd_cliente = cd_cliente;
         this.cd_usuario = cd_usuario;
         this.dt_agendamento = dt_agendamento;
     }
 
-    public Long getCdAgendamento() {
+    public int getCdAgendamento() {
         return cd_agendamento;
     }
 
-    public void setCdAgendamento(Long cd_agendamento) {
+    public void setCdAgendamento(int cd_agendamento) {
         this.cd_agendamento = cd_agendamento;
     }
 

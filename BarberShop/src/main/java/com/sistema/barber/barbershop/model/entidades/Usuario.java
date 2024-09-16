@@ -5,44 +5,41 @@ import java.util.Objects;
 
 public class Usuario {
 
-    private Long id;
-    private String nome;
-    private String senha;
-    private String usuario;
-    private Perfil perfil;
-    private boolean estado;
-    private LocalDateTime dth_criacao;
-    private LocalDateTime last_login;
+    public static int cd_usuario;
+    public static String nm_usuario;
+    public static String senha;
+    public static Perfil perfil;
+    public static boolean estado;
+    public static LocalDateTime dth_criacao;
+    public static LocalDateTime last_login;
 
     public Usuario() {
         this.estado = true;
     }
 
-    public Usuario(Long id, String nome, String senha, String usuario, Perfil perfil, LocalDateTime dth_criacao, LocalDateTime last_login) {
-        this.id = id;
-        this.nome = nome;
+    public Usuario(int cd_usuario, String nm_usuario, String senha, Perfil perfil, LocalDateTime last_login) {
+        this.cd_usuario = cd_usuario;
+        this.nm_usuario = nm_usuario;
         this.senha = senha;
-        this.usuario = usuario;
         this.perfil = perfil;
-        this.dth_criacao = dth_criacao;
         this.last_login = last_login;
         this.estado = true;
     }
 
-    public Long getId() {
-        return id;
+    public int getCdUsuario() {
+        return cd_usuario;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setCdUsuario(int cd_usuario) {
+        this.cd_usuario = cd_usuario;
     }
 
-    public String getNome() {
-        return nome;
+    public String getNmUsuario() {
+        return nm_usuario;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNmUsuario(String nm_usuario) {
+        this.nm_usuario = nm_usuario;
     }
 
     public String getSenha() {
@@ -53,15 +50,7 @@ public class Usuario {
         this.senha = senha;
     }
 
-    public String getUsuario() {
-        return usuario;
-    }
-
-    public void setUsuario(String usuario) {
-        this.usuario = usuario;
-    }
-
-    public boolean isEstado() {
+    public boolean getEstado() {
         return estado;
     }
 
@@ -69,26 +58,18 @@ public class Usuario {
         this.estado = estado;
     }
 
-    public LocalDateTime getDth_criacao() {
-        return dth_criacao;
-    }
-
-    public void setDth_criacao(LocalDateTime dth_criacao) {
-        this.dth_criacao = dth_criacao;
-    }
-
-    public LocalDateTime getLast_login() {
+    public LocalDateTime getLastLogin() {
         return last_login;
     }
 
-    public void setLast_login(LocalDateTime last_login) {
+    public void setLastLogin(LocalDateTime last_login) {
         this.last_login = last_login;
     }
 
     @Override
     public int hashCode() {
         int hash = 3;
-        hash = 67 * hash + Objects.hashCode(this.id);
+        hash = 67 * hash + Objects.hashCode(this.cd_usuario);
         return hash;
     }
 
@@ -104,7 +85,7 @@ public class Usuario {
             return false;
         }
         final Usuario other = (Usuario) obj;
-        if (!Objects.equals(this.id, other.id)) {
+        if (!Objects.equals(this.cd_usuario, other.cd_usuario)) {
             return false;
         }
         return true;
@@ -114,7 +95,7 @@ public class Usuario {
         this.estado = true;
     }
 
-    public void alterar_estado() {
+    public void alteraEstado() {
         this.estado = !this.estado;
     }
 }
