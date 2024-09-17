@@ -1,0 +1,48 @@
+@options
+@packages
+-classpath
+'C:/Users/mathf/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar;C:/Users/mathf/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+22
+-sourcepath
+'C:/BarberShow/BarberShop/src/main/java;C:/BarberShow/BarberShop/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/BarberShow/BarberShop/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'BarberShop 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'BarberShop 1.0-SNAPSHOT API'
+com.sistema.barber.barbershop
+com.sistema.barber.barbershop.helper
+com.sistema.barber.barbershop.model.connection
+com.sistema.barber.barbershop.model.entidades
+C:\Users\mathf\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar = 1715558225372
+C:\Users\mathf\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar = 1715558225476
+C:\BarberShow\BarberShop\src\main\java = 1716085615638
+C:\BarberShow\BarberShop\target\generated-sources\annotations = 1726450608391
+C:\BarberShow\BarberShop\target\apidocs\allclasses-index.html = 1726450611830
+C:\BarberShow\BarberShop\target\apidocs\allpackages-index.html = 1726450611832
+C:\BarberShow\BarberShop\target\apidocs\element-list = 1726450611727
+C:\BarberShow\BarberShop\target\apidocs\help-doc.html = 1726450611866
+C:\BarberShow\BarberShop\target\apidocs\index-all.html = 1726450611859
+C:\BarberShow\BarberShop\target\apidocs\index.html = 1726450611812
+C:\BarberShow\BarberShop\target\apidocs\member-search-index.js = 1726450611842
+C:\BarberShow\BarberShop\target\apidocs\module-search-index.js = 1726450611834
+C:\BarberShow\BarberShop\target\apidocs\overview-summary.html = 1726450611863
+C:\BarberShow\BarberShop\target\apidocs\overview-tree.html = 1726450611808
+C:\BarberShow\BarberShop\target\apidocs\package-search-index.js = 1726450611839
+C:\BarberShow\BarberShop\target\apidocs\search.html = 1726450611861
+C:\BarberShow\BarberShop\target\apidocs\tag-search-index.js = 1726450611843
+C:\BarberShow\BarberShop\target\apidocs\type-search-index.js = 1726450611841

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.sistema.barber.barbershop"},{"l":"com.sistema.barber.barbershop.helper"},{"l":"com.sistema.barber.barbershop.model.connection"},{"l":"com.sistema.barber.barbershop.model.entidades"}];updateSearchResults();
